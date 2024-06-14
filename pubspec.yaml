@@ -1,0 +1,45 @@
+name: jupiter_academy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.17.5
+  dio: ^5.4.3+1
+  firebase_analytics: ^10.10.7
+  firebase_core: ^2.32.0
+  firebase_messaging: ^14.9.4
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_local_notifications: ^17.1.2
+  google_fonts: ^6.2.1
+  googleapis: ^13.1.0
+  googleapis_auth: ^1.5.0
+  http: ^1.2.1
+  http_parser: ^4.0.2
+  image_picker: ^1.1.1
+  intl: ^0.19.0
+  mime: ^1.0.5
+  modal_progress_hud_nsn: ^0.5.1
+  shared_preferences: ^2.2.3
+  slide_to_act: ^2.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
