@@ -415,8 +415,8 @@ class _CheckInOutScreenState extends State<CheckInOutScreen> {
                               );
 
                               await employeeDoc3.update({
-                                'checkOut': checkOut,
-                                'totalWorkTime': totalWorkTime,
+                                //'checkOut': checkOut,
+                                //'totalWorkTime': totalWorkTime,
                                 'checkOutDetails': checkOutDetails,
                               });
 
